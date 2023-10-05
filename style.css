@@ -1,0 +1,24 @@
+.carousel{
+    overflow: hidden;
+    position:relative  
+}
+
+.carousel .carousel_item,
+.carousel .carousel_item--hidden{
+display: none;
+}
+
+.carousel .carousel_item--visible{
+display: block;
+
+}
+
+
+#carousel_button_prev:hover{
+ background-color:rgb(172, 255, 110) ;
+}
+
+#carousel_button_next:hover{
+background-color: rgb(172, 255, 110) ;
+}
+
